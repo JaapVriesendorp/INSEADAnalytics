@@ -15,7 +15,9 @@ output:
 always_allow_html: yes
 ---
 
-<!-- **Note:** Assuming the working directory is "MYDIRECTORY/INSEADAnalytics" (where you have cloned the course material), you can create an html file by running in your console the command rmarkdown::render("CourseSessions/ClassificationProcessCreditCardDefault.Rmd") -->
+<!-- **Note:** Assuming the working directory is "MYDIRECTORY/INSEADAnalytics" (where you have cloned the course material), you can create an html file by running in your console the command rmarkdown::render("CourseSessions/ClassificationProcessCreditCardDefault.Rmd") 
+Here's my change.
+-->
 
 ```{r echo=FALSE, message=FALSE}
 make_pdf_file = 0 # SET THIS TO 1 IF WE COMPILE PDF FILE, 0 OTHERWISE (FOR HTML)
